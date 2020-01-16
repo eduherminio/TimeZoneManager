@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+.loginContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+
+.panelLogin {
+  display: block;
+  border-radius: 5px;
+  width: 450px;
+  padding-bottom: 50px;
+}
+
+.panelRow {
+  height: 72px;
+  align-items: flex-end;
+  display: flex;
+  justify-content: center;
+}
+
+.panelRowHeader {
+  text-align: left;
+  padding: 12px;
+  display: flex;
+}
+
+.panelRowError {
+  color: red;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 300;
+  letter-spacing: 1.71px;
+}
+
+.inputControl {
+  width: 300px;
+}
+
+.buttonControl {
+  min-width: 145px;
+}
+
+.ul {
+  list-style: none;
+}

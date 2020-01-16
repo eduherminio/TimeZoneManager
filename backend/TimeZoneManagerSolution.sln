@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeZoneManager.Api", "TimeZoneManager.Api\TimeZoneManager.Api.csproj", "{F44CA7FB-A297-4C9A-AB4B-7FF7ADC40B26}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeZoneManager", "TimeZoneManager\TimeZoneManager.csproj", "{20E67E9B-60B7-43FA-A300-711FB13491F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{2FF768B9-B11E-4ACA-B1A2-5192DB5D65DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeZoneManager.Test", "TimeZoneManager.Test\TimeZoneManager.Test.csproj", "{4D65F525-B330-4E56-866D-FFD319FAD79A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeZoneManager.Api.Test", "TimeZoneManager.Api.Test\TimeZoneManager.Api.Test.csproj", "{230A83AC-32AB-4CBD-92CA-39762884FAD0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8FD69E40-B26C-47A0-B893-0C1786BD067A}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitlab-ci.yml = ..\.gitlab-ci.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F44CA7FB-A297-4C9A-AB4B-7FF7ADC40B26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F44CA7FB-A297-4C9A-AB4B-7FF7ADC40B26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F44CA7FB-A297-4C9A-AB4B-7FF7ADC40B26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F44CA7FB-A297-4C9A-AB4B-7FF7ADC40B26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20E67E9B-60B7-43FA-A300-711FB13491F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20E67E9B-60B7-43FA-A300-711FB13491F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20E67E9B-60B7-43FA-A300-711FB13491F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20E67E9B-60B7-43FA-A300-711FB13491F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D65F525-B330-4E56-866D-FFD319FAD79A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D65F525-B330-4E56-866D-FFD319FAD79A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D65F525-B330-4E56-866D-FFD319FAD79A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D65F525-B330-4E56-866D-FFD319FAD79A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{230A83AC-32AB-4CBD-92CA-39762884FAD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{230A83AC-32AB-4CBD-92CA-39762884FAD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{230A83AC-32AB-4CBD-92CA-39762884FAD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{230A83AC-32AB-4CBD-92CA-39762884FAD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4D65F525-B330-4E56-866D-FFD319FAD79A} = {2FF768B9-B11E-4ACA-B1A2-5192DB5D65DB}
+		{230A83AC-32AB-4CBD-92CA-39762884FAD0} = {2FF768B9-B11E-4ACA-B1A2-5192DB5D65DB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3DC0C78-47C8-4A75-9458-0D7B305645D2}
+	EndGlobalSection
+EndGlobal
