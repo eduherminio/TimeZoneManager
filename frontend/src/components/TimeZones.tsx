@@ -75,7 +75,7 @@ class TimeZones extends React.PureComponent<TimeZonesProps, TimeZonesState> {
       cityName: timezone.cityName,
       gmtDiff: timezone.gmtDifferenceInHours,
       timeThere: moment.utc().add(timezone.gmtDifferenceInHours, 'hours').format("YYYY-MM-DD, HH:mm:ss"),
-      localDiff: timezone.gmtDifferenceInHours - moment().utcOffset(),
+      localDiff: 60 * timezone.gmtDifferenceInHours - moment().utcOffset(),
       ownerUsername: timezone.ownerUsername
     };
   }
